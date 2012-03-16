@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8B3421C14EAF7D700131ACC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B3421B14EAF7D700131ACC /* UIKit.framework */; };
+		A8B3421E14EAF7D700131ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B3421D14EAF7D700131ACC /* Foundation.framework */; };
+		A8B3422014EAF7D700131ACC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B3421F14EAF7D700131ACC /* CoreGraphics.framework */; };
+		A8B3422614EAF7D700131ACC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B3422414EAF7D700131ACC /* InfoPlist.strings */; };
+		A8B3422814EAF7D700131ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3422714EAF7D700131ACC /* main.m */; };
+		A8B3422C14EAF7D700131ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3422B14EAF7D700131ACC /* AppDelegate.m */; };
+		A8B3422F14EAF7D700131ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B3422E14EAF7D700131ACC /* ViewController.m */; };
+		A8B3423214EAF7D700131ACC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B3423014EAF7D700131ACC /* ViewController.xib */; };
+		A8B3423A14EAFB3500131ACC /* deutsche-icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B3423914EAFB3500131ACC /* deutsche-icon-ipad.png */; };
+		A8B3423D14EAFC3F00131ACC /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B3423B14EAFC3F00131ACC /* Default-Landscape.png */; };
+		A8B3423E14EAFC3F00131ACC /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B3423C14EAFC3F00131ACC /* Default-Portrait.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8B3421714EAF7D700131ACC /* dbNexus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dbNexus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B3421B14EAF7D700131ACC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8B3421D14EAF7D700131ACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8B3421F14EAF7D700131ACC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8B3422314EAF7D700131ACC /* dbNexus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dbNexus-Info.plist"; sourceTree = "<group>"; };
+		A8B3422514EAF7D700131ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8B3422714EAF7D700131ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8B3422914EAF7D700131ACC /* dbNexus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dbNexus-Prefix.pch"; sourceTree = "<group>"; };
+		A8B3422A14EAF7D700131ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8B3422B14EAF7D700131ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8B3422D14EAF7D700131ACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8B3422E14EAF7D700131ACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8B3423114EAF7D700131ACC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A8B3423914EAFB3500131ACC /* deutsche-icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deutsche-icon-ipad.png"; sourceTree = "<group>"; };
+		A8B3423B14EAFC3F00131ACC /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		A8B3423C14EAFC3F00131ACC /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8B3421414EAF7D700131ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B3421C14EAF7D700131ACC /* UIKit.framework in Frameworks */,
+				A8B3421E14EAF7D700131ACC /* Foundation.framework in Frameworks */,
+				A8B3422014EAF7D700131ACC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8B3420C14EAF7D700131ACC = {
+			isa = PBXGroup;
+			children = (
+				A8B3422114EAF7D700131ACC /* dbNexus */,
+				A8B3421A14EAF7D700131ACC /* Frameworks */,
+				A8B3421814EAF7D700131ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8B3421814EAF7D700131ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3421714EAF7D700131ACC /* dbNexus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8B3421A14EAF7D700131ACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3421B14EAF7D700131ACC /* UIKit.framework */,
+				A8B3421D14EAF7D700131ACC /* Foundation.framework */,
+				A8B3421F14EAF7D700131ACC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8B3422114EAF7D700131ACC /* dbNexus */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3423814EAFB3500131ACC /* images */,
+				A8B3422A14EAF7D700131ACC /* AppDelegate.h */,
+				A8B3422B14EAF7D700131ACC /* AppDelegate.m */,
+				A8B3422D14EAF7D700131ACC /* ViewController.h */,
+				A8B3422E14EAF7D700131ACC /* ViewController.m */,
+				A8B3423014EAF7D700131ACC /* ViewController.xib */,
+				A8B3422214EAF7D700131ACC /* Supporting Files */,
+			);
+			path = dbNexus;
+			sourceTree = "<group>";
+		};
+		A8B3422214EAF7D700131ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3422314EAF7D700131ACC /* dbNexus-Info.plist */,
+				A8B3422414EAF7D700131ACC /* InfoPlist.strings */,
+				A8B3422714EAF7D700131ACC /* main.m */,
+				A8B3422914EAF7D700131ACC /* dbNexus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8B3423814EAFB3500131ACC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A8B3423B14EAFC3F00131ACC /* Default-Landscape.png */,
+				A8B3423C14EAFC3F00131ACC /* Default-Portrait.png */,
+				A8B3423914EAFB3500131ACC /* deutsche-icon-ipad.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8B3421614EAF7D700131ACC /* dbNexus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B3423514EAF7D700131ACC /* Build configuration list for PBXNativeTarget "dbNexus" */;
+			buildPhases = (
+				A8B3421314EAF7D700131ACC /* Sources */,
+				A8B3421414EAF7D700131ACC /* Frameworks */,
+				A8B3421514EAF7D700131ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dbNexus;
+			productName = dbNexus;
+			productReference = A8B3421714EAF7D700131ACC /* dbNexus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8B3420E14EAF7D700131ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A8B3421114EAF7D700131ACC /* Build configuration list for PBXProject "dbNexus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8B3420C14EAF7D700131ACC;
+			productRefGroup = A8B3421814EAF7D700131ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8B3421614EAF7D700131ACC /* dbNexus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8B3421514EAF7D700131ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B3422614EAF7D700131ACC /* InfoPlist.strings in Resources */,
+				A8B3423214EAF7D700131ACC /* ViewController.xib in Resources */,
+				A8B3423A14EAFB3500131ACC /* deutsche-icon-ipad.png in Resources */,
+				A8B3423D14EAFC3F00131ACC /* Default-Landscape.png in Resources */,
+				A8B3423E14EAFC3F00131ACC /* Default-Portrait.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8B3421314EAF7D700131ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B3422814EAF7D700131ACC /* main.m in Sources */,
+				A8B3422C14EAF7D700131ACC /* AppDelegate.m in Sources */,
+				A8B3422F14EAF7D700131ACC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8B3422414EAF7D700131ACC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B3422514EAF7D700131ACC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8B3423014EAF7D700131ACC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B3423114EAF7D700131ACC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8B3423314EAF7D700131ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A8B3423414EAF7D700131ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8B3423614EAF7D700131ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dbNexus/dbNexus-Prefix.pch";
+				INFOPLIST_FILE = "dbNexus/dbNexus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "734BC948-C33E-403D-A65C-5A3F87E1648A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8B3423714EAF7D700131ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dbNexus/dbNexus-Prefix.pch";
+				INFOPLIST_FILE = "dbNexus/dbNexus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "734BC948-C33E-403D-A65C-5A3F87E1648A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8B3421114EAF7D700131ACC /* Build configuration list for PBXProject "dbNexus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B3423314EAF7D700131ACC /* Debug */,
+				A8B3423414EAF7D700131ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B3423514EAF7D700131ACC /* Build configuration list for PBXNativeTarget "dbNexus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B3423614EAF7D700131ACC /* Debug */,
+				A8B3423714EAF7D700131ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8B3420E14EAF7D700131ACC /* Project object */;
+}
