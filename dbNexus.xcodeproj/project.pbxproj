@@ -261,7 +261,7 @@
 				GCC_PREFIX_HEADER = "dbNexus/dbNexus-Prefix.pch";
 				INFOPLIST_FILE = "dbNexus/dbNexus-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "734BC948-C33E-403D-A65C-5A3F87E1648A";
+				PROVISIONING_PROFILE = "5F947C9A-E2BF-4335-B4F2-9D79AF85FC08";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,7 +274,7 @@
 				GCC_PREFIX_HEADER = "dbNexus/dbNexus-Prefix.pch";
 				INFOPLIST_FILE = "dbNexus/dbNexus-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "734BC948-C33E-403D-A65C-5A3F87E1648A";
+				PROVISIONING_PROFILE = "5F947C9A-E2BF-4335-B4F2-9D79AF85FC08";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +298,7 @@
 				A8B3423714EAF7D700131ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
